@@ -47,6 +47,14 @@ public class AppTest
         assertEquals(0, expected);
     }
 
+    @Test
+    public void failingTest() {
+        // fixed failing test
+        int expected = 10;
+        assertEquals(0, expected);
+    }
+
+
 
     @After
     public void cleanUpStreams() {
