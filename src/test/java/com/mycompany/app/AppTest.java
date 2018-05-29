@@ -40,6 +40,13 @@ public class AppTest
         }
     }
 
+    @Test
+    public void failingTest() {
+        int expected = -1;
+        assertEquals(0, expected);
+    }
+
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
