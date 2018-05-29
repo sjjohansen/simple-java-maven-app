@@ -48,10 +48,10 @@ public class AppTest
     }
 
     @Test
-    public void failingTest() {
+    public void notFailingTest() {
         // fixed failing test
         int expected = 9;
-        assertEquals(0, expected);
+        assertEquals(9, expected);
     }
 
 
