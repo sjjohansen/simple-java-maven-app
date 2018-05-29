@@ -50,7 +50,7 @@ public class AppTest
     @Test
     public void failingTest() {
         // fixed failing test
-        int expected = 10;
+        int expected = 9;
         assertEquals(0, expected);
     }
 
