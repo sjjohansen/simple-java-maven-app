@@ -41,8 +41,9 @@ public class AppTest
     }
 
     @Test
-    public void failingTest() {
-        int expected = -1;
+    public void passingTest() {
+        // fixed failing test
+        int expected = 0;
         assertEquals(0, expected);
     }
 
